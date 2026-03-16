@@ -1,10 +1,10 @@
 [
 {
 	"id": "io.github.sagaraggarwal86-configurable-aggregate-report",
-	"name": "Configurable Aggregate Report",
+	"name": "SPARK — Smart Performance Analyser & Report Kit",
 	"description": "A file-based Apache JMeter listener plugin for post-test JTL analysis. Provides a filterable aggregate table, CSV export, SLA threshold highlighting, and AI-generated HTML performance reports — with zero runtime overhead.",
-	"screenshotUrl": "https://raw.githubusercontent.com/sagaraggarwal86/Configurable_Aggregate_Report/main/docs/img.jpg",
-	"helpUrl": "https://github.com/sagaraggarwal86/Configurable_Aggregate_Report/blob/main/README.md",
+	"screenshotUrl": "https://raw.githubusercontent.com/sagaraggarwal86/spark-jmeter-plugin/main/docs/Image.jpg",
+	"helpUrl": "https://github.com/sagaraggarwal86/spark-jmeter-plugin/blob/main/README.md",
 	"vendor": "Sagar Aggarwal",
 	"markerClass": "com.personal.jmeter.listener.ListenerCollector",
 	"componentClasses": [
@@ -19,6 +19,10 @@
 		"3.1.0": {
 			"changes": "Configurable percentile, SLA threshold highlighting, AI-generated HTML performance report, CLI headless mode, transaction search with regex support, chart interval control",
 			"downloadUrl": "https://repo1.maven.org/maven2/io/github/sagaraggarwal86/Configurable_Aggregate_Report/3.1.0/Configurable_Aggregate_Report-3.1.0.jar"
+		},
+		"4.2.0": {
+			"changes": "Plugin renamed to SPARK, bug fixes, performance improvements",
+			"downloadUrl": "https://repo1.maven.org/maven2/io/github/sagaraggarwal86/spark-jmeter-plugin/4.2.0/spark-jmeter-plugin-4.2.0.jar"
 		}
 	}
 },
