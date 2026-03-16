@@ -1,10 +1,17 @@
 [
 {
 	"id": "io.github.sagaraggarwal86-configurable-aggregate-report",
+<<<<<<< HEAD
 	"name": "SPARK — Smart Performance Analyser & Report Kit",
 	"description": "A file-based Apache JMeter listener plugin for post-test JTL analysis. Provides a filterable aggregate table, CSV export, SLA threshold highlighting, and AI-generated HTML performance reports — with zero runtime overhead.",
 	"screenshotUrl": "https://raw.githubusercontent.com/sagaraggarwal86/spark-jmeter-plugin/main/docs/Image.jpg",
 	"helpUrl": "https://github.com/sagaraggarwal86/spark-jmeter-plugin/blob/main/README.md",
+=======
+	"name": "JAAR — JTL AI Analysis & Reporting",
+	"description": "A file-based Apache JMeter listener plugin for post-test JTL analysis. Provides a filterable aggregate table, CSV export, SLA threshold highlighting, and AI-generated HTML performance reports — with zero runtime overhead.",
+	"screenshotUrl": "https://raw.githubusercontent.com/sagaraggarwal86/jaar-jmeter-plugin/main/docs/Image.jpg",
+	"helpUrl": "https://github.com/sagaraggarwal86/jaar-jmeter-plugin/blob/main/README.md",
+>>>>>>> c64ee622 (updated plugin name bug fixes and performance improvement)
 	"vendor": "Sagar Aggarwal",
 	"markerClass": "com.personal.jmeter.listener.ListenerCollector",
 	"componentClasses": [
@@ -21,8 +28,13 @@
 			"downloadUrl": "https://repo1.maven.org/maven2/io/github/sagaraggarwal86/Configurable_Aggregate_Report/3.1.0/Configurable_Aggregate_Report-3.1.0.jar"
 		},
 		"4.2.0": {
+<<<<<<< HEAD
 			"changes": "Plugin renamed to SPARK, bug fixes, performance improvements",
 			"downloadUrl": "https://repo1.maven.org/maven2/io/github/sagaraggarwal86/spark-jmeter-plugin/4.2.0/spark-jmeter-plugin-4.2.0.jar"
+=======
+			"changes": "Plugin renamed to JAAR, bug fixes, performance improvements",
+			"downloadUrl": "https://repo1.maven.org/maven2/io/github/sagaraggarwal86/jaar-jmeter-plugin/4.2.1/jaar-jmeter-plugin-4.2.1.jar"
+>>>>>>> c64ee622 (updated plugin name bug fixes and performance improvement)
 		}
 	}
 },
