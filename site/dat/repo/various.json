@@ -23,6 +23,10 @@
 		"4.2.1": {
 			"changes": "Plugin renamed to JAAR, bug fixes, performance improvements",
 			"downloadUrl": "https://repo1.maven.org/maven2/io/github/sagaraggarwal86/jaar-jmeter-plugin/4.2.1/jaar-jmeter-plugin-4.2.1.jar"
+		},
+		"4.5.0": {
+			"changes": "Added new columns in table, improved filter settings, Added 'Reload Button' to Refresh AI Provider list, Added 'aggregate report' with SLA PASS/FAIL, some bug fixes, performance improvements",
+			"downloadUrl": "https://repo1.maven.org/maven2/io/github/sagaraggarwal86/jaar-jmeter-plugin/4.5.0/jaar-jmeter-plugin-4.5.0.jar"
 		}
 	}
 },
