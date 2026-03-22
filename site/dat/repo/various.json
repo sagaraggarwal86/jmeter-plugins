@@ -27,6 +27,10 @@
 		"4.5.0": {
 			"changes": "Added new columns in table, improved filter settings, Added 'Reload Button' to Refresh AI Provider list, Added 'aggregate report' with SLA PASS/FAIL, some bug fixes, performance improvements",
 			"downloadUrl": "https://repo1.maven.org/maven2/io/github/sagaraggarwal86/jaar-jmeter-plugin/4.5.0/jaar-jmeter-plugin-4.5.0.jar"
+		}, 
+		"4.7.0": {
+			"changes": "Added support for csv format along with jtl, fix bug for timestamp formats, included tabs in HTML report, added excel/pdf export feature, improved performance and accuracy",
+			"downloadUrl": "https://repo1.maven.org/maven2/io/github/sagaraggarwal86/jaar-jmeter-plugin/4.7.0/jaar-jmeter-plugin-4.7.0.jar"
 		}
 	}
 },
