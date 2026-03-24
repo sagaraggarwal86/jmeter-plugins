@@ -31,6 +31,10 @@
 		"4.7.0": {
 			"changes": "Added support for csv format along with jtl, fix bug for timestamp formats, included tabs in HTML report, added excel/pdf export feature, improved performance and accuracy",
 			"downloadUrl": "https://repo1.maven.org/maven2/io/github/sagaraggarwal86/jaar-jmeter-plugin/4.7.0/jaar-jmeter-plugin-4.7.0.jar"
+		}, 
+		"5.0.0": {
+			"changes": "Improved HTML Report readability with better UI/UX design",
+			"downloadUrl": "https://repo1.maven.org/maven2/io/github/sagaraggarwal86/jaar-jmeter-plugin/5.0.0/jaar-jmeter-plugin-5.0.0.jar"
 		}
 	}
 },
