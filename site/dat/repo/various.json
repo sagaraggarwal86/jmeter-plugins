@@ -2,39 +2,19 @@
 {
 	"id": "io.github.sagaraggarwal86-configurable-aggregate-report",
 	"name": "JAAR — JTL AI Analysis & Reporting",
-	"description": "A file-based Apache JMeter listener plugin for post-test JTL analysis. Provides a filterable aggregate table, CSV export, SLA threshold highlighting, and AI-generated HTML performance reports — with zero runtime overhead.",
-	"screenshotUrl": "https://raw.githubusercontent.com/sagaraggarwal86/jaar-jmeter-plugin/main/docs/Image.jpg",
+	"description": "A file-based Apache JMeter listener plugin for post-test JTL analysis. Provides a filterable aggregate table with features like Filter Results using Start/End Offset & Transaction Names with RegEx support, Dynamic Percentile & Table Columns, SLA Threshold Highlighting, CLI Headless Mode, Chart Interval Control, AI-Analyzed HTML Performance Report, Export AI Report in Excel Format — with zero runtime overhead.",
+	"screenshotUrl": "https://raw.githubusercontent.com/sagaraggarwal86/jaar-jmeter-plugin/main/docs/Image.jpg"
 	"helpUrl": "https://github.com/sagaraggarwal86/jaar-jmeter-plugin/blob/main/README.md",
 	"vendor": "Sagar Aggarwal",
-	"markerClass": "com.personal.jmeter.listener.ListenerCollector",
+	"markerClass": "com.personal.jmeter.listener.gui.ListenerCollector",
 	"componentClasses": [
-		"com.personal.jmeter.listener.ListenerCollector",
-		"com.personal.jmeter.listener.ListenerGUI"
+		"com.personal.jmeter.listener.gui.ListenerCollector",
+		"com.personal.jmeter.listener.gui.ListenerGUI"
 	],
 	"versions": {
-		"1.1.0": {
-			"changes": "Initial release",
-			"downloadUrl": "https://repo1.maven.org/maven2/io/github/sagaraggarwal86/Configurable_Aggregate_Report/1.1.0/Configurable_Aggregate_Report-1.1.0.jar"
-		},
-		"3.1.0": {
-			"changes": "Configurable percentile, SLA threshold highlighting, AI-generated HTML performance report, CLI headless mode, transaction search with regex support, chart interval control",
-			"downloadUrl": "https://repo1.maven.org/maven2/io/github/sagaraggarwal86/Configurable_Aggregate_Report/3.1.0/Configurable_Aggregate_Report-3.1.0.jar"
-		},
-		"4.2.1": {
-			"changes": "Plugin renamed to JAAR, bug fixes, performance improvements",
-			"downloadUrl": "https://repo1.maven.org/maven2/io/github/sagaraggarwal86/jaar-jmeter-plugin/4.2.1/jaar-jmeter-plugin-4.2.1.jar"
-		},
-		"4.5.0": {
-			"changes": "Added new columns in table, improved filter settings, Added 'Reload Button' to Refresh AI Provider list, Added 'aggregate report' with SLA PASS/FAIL, some bug fixes, performance improvements",
-			"downloadUrl": "https://repo1.maven.org/maven2/io/github/sagaraggarwal86/jaar-jmeter-plugin/4.5.0/jaar-jmeter-plugin-4.5.0.jar"
-		}, 
-		"4.7.0": {
-			"changes": "Added support for csv format along with jtl, fix bug for timestamp formats, included tabs in HTML report, added excel/pdf export feature, improved performance and accuracy",
-			"downloadUrl": "https://repo1.maven.org/maven2/io/github/sagaraggarwal86/jaar-jmeter-plugin/4.7.0/jaar-jmeter-plugin-4.7.0.jar"
-		}, 
-		"5.0.0": {
-			"changes": "Improved HTML Report readability with better UI/UX design",
-			"downloadUrl": "https://repo1.maven.org/maven2/io/github/sagaraggarwal86/jaar-jmeter-plugin/5.0.0/jaar-jmeter-plugin-5.0.0.jar"
+		"5.0.1": {
+			"changes": "fixed marker class and component class, removed old deprecated versions and kept only relevant meaniningful version",
+			"downloadUrl": "https://repo1.maven.org/maven2/io/github/sagaraggarwal86/jaar-jmeter-plugin/5.0.1/jaar-jmeter-plugin-5.0.1.jar"
 		}
 	}
 },
