@@ -34,7 +34,11 @@
 		"5.0.1": {
 			"changes": "fixed marker class and component class, removed old deprecated versions and kept only relevant meaningful version",
 			"downloadUrl": "https://repo1.maven.org/maven2/io/github/sagaraggarwal86/jaar-jmeter-plugin/5.0.1/jaar-jmeter-plugin-5.0.1.jar"
-		}
+		},
+      "5.5.0": {
+        "changes": "performance improvement on listener gui and prompt for report generation",
+        "downloadUrl": "https://repo1.maven.org/maven2/io/github/sagaraggarwal86/jaar-jmeter-plugin/5.5.0/jaar-jmeter-plugin-5.5.0.jar"
+      }
 	}
 },
   {
