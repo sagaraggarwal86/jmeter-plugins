@@ -1,27 +1,31 @@
 [
-{
-	"id": "io.github.sagaraggarwal86-configurable-aggregate-report",
-	"name": "JAAR — JTL AI Analysis & Reporting",
-	"description": "A file-based Apache JMeter listener plugin for post-test JTL analysis. Provides a filterable aggregate table with features like Filter Results using Start/End Offset & Transaction Names with RegEx support, Dynamic Percentile & Table Columns, SLA Threshold Highlighting, CLI Headless Mode, Chart Interval Control, AI-Analyzed HTML Performance Report, Export AI Report in Excel Format — with zero runtime overhead.",
-	"screenshotUrl": "https://raw.githubusercontent.com/sagaraggarwal86/jaar-jmeter-plugin/main/docs/Image.jpg",
-	"helpUrl": "https://github.com/sagaraggarwal86/jaar-jmeter-plugin/blob/main/README.md",
-	"vendor": "Sagar Aggarwal",
-	"markerClass": "com.personal.jmeter.listener.gui.ListenerCollector",
-	"componentClasses": [
-		"com.personal.jmeter.listener.gui.ListenerCollector",
-		"com.personal.jmeter.listener.gui.ListenerGUI"
-	],
-	"versions": {
-		"5.0.1": {
-			"changes": "fixed marker class and component class, removed old deprecated versions and kept only relevant meaningful version",
-			"downloadUrl": "https://repo1.maven.org/maven2/io/github/sagaraggarwal86/jaar-jmeter-plugin/5.0.1/jaar-jmeter-plugin-5.0.1.jar"
-		},
+  {
+    "id": "io.github.sagaraggarwal86-configurable-aggregate-report",
+    "name": "JAAR — JTL AI Analysis & Reporting",
+    "description": "A file-based Apache JMeter listener plugin for post-test JTL analysis. Provides a filterable aggregate table with features like Filter Results using Start/End Offset & Transaction Names with RegEx support, Dynamic Percentile & Table Columns, SLA Threshold Highlighting (Error %, Response Time & TPS), CLI Headless Mode, Chart Interval Control, AI-Analyzed HTML Performance Report, Data-Only HTML Report (no AI required), Export Report in Excel & PDF Format, Performance Charts, Dark Mode — with zero runtime overhead.",
+    "screenshotUrl": "https://raw.githubusercontent.com/sagaraggarwal86/jaar-jmeter-plugin/main/docs/Image.jpg",
+    "helpUrl": "https://github.com/sagaraggarwal86/jaar-jmeter-plugin/blob/main/README.md",
+    "vendor": "Sagar Aggarwal",
+    "markerClass": "io.github.sagaraggarwal86.jmeter.listener.gui.ListenerCollector",
+    "componentClasses": [
+      "io.github.sagaraggarwal86.jmeter.listener.gui.ListenerCollector",
+      "io.github.sagaraggarwal86.jmeter.listener.gui.ListenerGUI"
+    ],
+    "versions": {
+      "5.0.1": {
+        "changes": "fixed marker class and component class, removed old deprecated versions and kept only relevant meaningful version",
+        "downloadUrl": "https://repo1.maven.org/maven2/io/github/sagaraggarwal86/jaar-jmeter-plugin/5.0.1/jaar-jmeter-plugin-5.0.1.jar"
+      },
       "5.5.0": {
         "changes": "performance improvement on listener gui and prompt for report generation",
         "downloadUrl": "https://repo1.maven.org/maven2/io/github/sagaraggarwal86/jaar-jmeter-plugin/5.5.0/jaar-jmeter-plugin-5.5.0.jar"
+      },
+      "6.0.0": {
+        "changes": "TPS SLA threshold, data-only HTML report (no AI required), performance charts with configurable interval, Excel & PDF export, dark mode, pagination & search in HTML report transaction metrics, CLI fallback to data-only report on AI failure",
+        "downloadUrl": "https://repo1.maven.org/maven2/io/github/sagaraggarwal86/jaar-jmeter-plugin/6.0.0/jaar-jmeter-plugin-6.0.0.jar"
       }
-	}
-},
+    }
+  },
   {
     "id": "ssh-sampler",
     "name": "SSH Protocol Support",
