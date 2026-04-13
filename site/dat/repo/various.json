@@ -27,6 +27,26 @@
     }
   },
   {
+    "id": "io.github.sagaraggarwal86-jmx-version-control-system",
+    "name": "JVCS — JMX Version Control System",
+    "description": "A lightweight local version control plugin for Apache JMeter test plans (.jmx files). Auto-snapshots on every save with SHA-256 deduplication, manual checkpoints with notes, one-click rollback with safety net, version freezing, configurable retention with FIFO pruning, periodic auto-checkpoint, selective deletion, export to .jmx, audit trail, lock file mechanism, dirty state indicator, self-healing index, toolbar integration, keyboard shortcuts (Ctrl+K, Ctrl+H) — no Git, no SVN, no external tools required.",
+    "screenshotUrl": "https://raw.githubusercontent.com/sagaraggarwal86/jmx-version-control-system/main/docs/Image.jpeg",
+    "helpUrl": "https://github.com/sagaraggarwal86/jmx-version-control-system/blob/main/README.md",
+    "vendor": "Sagar Aggarwal",
+    "markerClass": "io.github.sagaraggarwal86.jmeter.scm.ui.ScmMenuCreator",
+    "componentClasses": [
+      "io.github.sagaraggarwal86.jmeter.scm.ui.ScmMenuCreator",
+      "io.github.sagaraggarwal86.jmeter.scm.core.SaveCommandWrapper",
+      "io.github.sagaraggarwal86.jmeter.scm.core.ScmOpenListener"
+    ],
+    "versions": {
+      "1.1.0": {
+        "changes": "Initial release — auto-snapshot on save, manual checkpoint, version history panel, one-click restore, freeze/unfreeze, retention pruning, auto-checkpoint, selective deletion, export, audit log, lock management, dirty indicator, toolbar buttons, settings dialog, self-healing index, storage migration",
+        "downloadUrl": "https://repo1.maven.org/maven2/io/github/sagaraggarwal86/jmx-version-control-system/v1.1.0/jmx-version-control-system-v1.1.0.jar"
+      }
+    }
+  },
+  {
     "id": "io.github.sagaraggarwal86-bpm-jmeter-plugin",
     "name": "BPM — Browser Performance Metrics",
     "description": "A live JMeter listener plugin for capturing browser rendering metrics via Chrome DevTools Protocol. Features include Core Web Vitals (LCP, FCP, CLS, TTFB), Network & Console capture, Composite Performance Score, SLA Threshold Highlighting, Improvement Area Detection, Filter by Start/End Offset & Transaction Names with RegEx support, CLI Headless Mode, Chart Interval Control, HTML Performance Report, and Excel Export — with minimal impact on JMeter thread performance.",
