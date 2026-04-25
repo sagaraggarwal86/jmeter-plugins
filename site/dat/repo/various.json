@@ -27,6 +27,24 @@
     }
   },
   {
+    "id": "io.github.sagaraggarwal86-jmxauditor",
+    "name": "JMXAuditor — JMX Static Analyser",
+    "description": "A JMeter GUI-mode plugin that performs static analysis on .jmx test plans. Surfaces findings across six quality categories (Correctness, Security, Scalability, Realism, Maintainability, Observability) with 25 read-only rules. HTML & JSON Report Export, with zero impact on test execution.",
+    "screenshotUrl": "https://raw.githubusercontent.com/sagaraggarwal86/JMXAuditor-jmeter-plugin/main/docs/Image.jpg",
+    "helpUrl": "https://github.com/sagaraggarwal86/JMXAuditor-jmeter-plugin/blob/main/README.md",
+    "vendor": "Sagar Aggarwal",
+    "markerClass": "io.github.sagaraggarwal86.jmeter.jmxauditor.ui.action.JMXAuditorMenuCreator",
+    "componentClasses": [
+      "io.github.sagaraggarwal86.jmeter.jmxauditor.ui.action.JMXAuditorMenuCreator"
+    ],
+    "versions": {
+      "0.6.0": {
+        "changes": "Initial public release",
+        "downloadUrl": "https://repo1.maven.org/maven2/io/github/sagaraggarwal86/jmxauditor-jmeter-plugin/0.6.0/jmxauditor-jmeter-plugin-0.6.0.jar"
+      }
+    }
+  },
+  {
     "id": "io.github.sagaraggarwal86-jmx-version-control-system",
     "name": "JVCS — JMX Version Control System",
     "description": "A lightweight local version control plugin for Apache JMeter test plans (.jmx files). Auto-snapshots on every save with SHA-256 deduplication, manual checkpoints with notes, one-click rollback with safety net, version freezing, configurable retention with FIFO pruning, periodic auto-checkpoint, selective deletion, export to .jmx, audit trail, lock file mechanism, dirty state indicator, self-healing index, toolbar integration, keyboard shortcuts (Ctrl+K, Ctrl+H) — no Git, no SVN, no external tools required.",
